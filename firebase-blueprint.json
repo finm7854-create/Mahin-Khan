@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "bugs": {
+      "title": "Bugs",
+      "description": "Software bugs reported on the Bug Board",
+      "fields": {
+        "title": { "type": "string", "required": true },
+        "description": { "type": "string", "required": true },
+        "status": { "type": "string", "enum": ["open", "solved"], "required": true },
+        "priorityLevel": { "type": "string", "required": false },
+        "category": { "type": "string", "required": false },
+        "authorName": { "type": "string", "required": false },
+        "createdAt": { "type": "string", "required": true },
+        "solverName": { "type": "string", "required": false },
+        "solvedAt": { "type": "string", "required": false },
+        "imageUrls": { "type": "array", "items": { "type": "string" }, "required": false },
+        "videoUrls": { "type": "array", "items": { "type": "string" }, "required": false },
+        "audioUrls": { "type": "array", "items": { "type": "string" }, "required": false },
+        "photoUrl": { "type": "string", "required": false },
+        "videoUrl": { "type": "string", "required": false },
+        "priority": { "type": "string", "required": false },
+        "tags": { "type": "array", "items": { "type": "string" }, "required": false },
+        "createdBy": { "type": "string", "required": false },
+        "createdByEmail": { "type": "string", "required": false }
+      }
+    }
+  }
+}

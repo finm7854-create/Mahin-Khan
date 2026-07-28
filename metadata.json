@@ -1,0 +1,8 @@
+{
+  "name": "Bug Board",
+  "description": "A shared board for tracking and solving software bugs with photos, videos, and live statistics.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
